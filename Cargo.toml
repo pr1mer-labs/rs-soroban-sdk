@@ -2,13 +2,13 @@
 resolver = "2"
 
 members = [
-    "soroban-sdk",
-    "soroban-sdk-macros",
-    "soroban-spec",
-    "soroban-spec-rust",
-    "soroban-ledger-snapshot",
-    "soroban-token-sdk",
-    "tests/*",
+	"soroban-sdk",
+	"soroban-sdk-macros",
+	"soroban-spec",
+	"soroban-spec-rust",
+	"soroban-ledger-snapshot",
+	"soroban-token-sdk",
+	"tests/*",
 ]
 
 [workspace.package]
@@ -39,7 +39,7 @@ version = "=22.1.3"
 #rev = "bd0c80a1fe171e75f8d745f17975a73927d44ecd"
 
 [workspace.dependencies.stellar-strkey]
-version = "=0.0.9"
+version = "=0.0.11"
 
 [workspace.dependencies.stellar-xdr]
 version = "=22.1.0"
