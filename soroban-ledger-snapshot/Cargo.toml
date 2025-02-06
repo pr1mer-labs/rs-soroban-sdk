@@ -12,11 +12,11 @@ rust-version.workspace = true
 
 [dependencies]
 soroban-env-host = { workspace = true }
-soroban-env-common = {workspace = true, features = ["serde"]}
+soroban-env-common = { workspace = true, features = ["serde"] }
 serde = { version = "1.0.0", features = ["derive"] }
 serde_with = { version = "3.4.0", features = ["hex"] }
 serde_json = "1.0.0"
-thiserror = "1.0"
+thiserror = { version = "2", default-features = false }
 
 [dev-dependencies]
 pretty_assertions = "1.2.1"
