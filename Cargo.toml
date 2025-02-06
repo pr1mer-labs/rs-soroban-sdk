@@ -42,7 +42,7 @@ version = "=22.1.3"
 version = "=0.0.11"
 
 [workspace.dependencies.stellar-xdr]
-version = "=22.1.0"
+git = "https://github.com/pr1mer-labs/rs-stellar-xdr"
 default-features = false
 features = ["curr"]
 #git = "https://github.com/stellar/rs-stellar-xdr"

@@ -1264,7 +1264,7 @@ dependencies = [
  "soroban-env-macros",
  "soroban-wasmi",
  "static_assertions",
- "stellar-xdr",
+ "stellar-xdr 22.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "wasmparser",
 ]
 
@@ -1325,7 +1325,7 @@ dependencies = [
  "quote",
  "serde",
  "serde_json",
- "stellar-xdr",
+ "stellar-xdr 22.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "syn 2.0.98",
 ]
 
@@ -1367,7 +1367,7 @@ dependencies = [
  "soroban-sdk-macros",
  "soroban-spec",
  "stellar-strkey 0.0.11",
- "stellar-xdr",
+ "stellar-xdr 22.1.0 (git+https://github.com/pr1mer-labs/rs-stellar-xdr)",
 ]
 
 [[package]]
@@ -1384,7 +1384,7 @@ dependencies = [
  "soroban-env-common",
  "soroban-spec",
  "soroban-spec-rust",
- "stellar-xdr",
+ "stellar-xdr 22.1.0 (git+https://github.com/pr1mer-labs/rs-stellar-xdr)",
  "syn 2.0.98",
 ]
 
@@ -1394,7 +1394,7 @@ version = "22.0.6"
 dependencies = [
  "base64 0.13.1",
  "pretty_assertions",
- "stellar-xdr",
+ "stellar-xdr 22.1.0 (git+https://github.com/pr1mer-labs/rs-stellar-xdr)",
  "thiserror 2.0.11",
  "wasmparser",
 ]
@@ -1409,7 +1409,7 @@ dependencies = [
  "quote",
  "sha2",
  "soroban-spec",
- "stellar-xdr",
+ "stellar-xdr 22.1.0 (git+https://github.com/pr1mer-labs/rs-stellar-xdr)",
  "syn 2.0.98",
  "thiserror 2.0.11",
 ]
@@ -1491,6 +1491,19 @@ dependencies = [
  "serde",
  "serde_with",
  "stellar-strkey 0.0.9",
+]
+
+[[package]]
+name = "stellar-xdr"
+version = "22.1.0"
+source = "git+https://github.com/pr1mer-labs/rs-stellar-xdr#ff99bd8883eb0664262a19fd482eb0056f29ff48"
+dependencies = [
+ "crate-git-revision",
+ "escape-bytes",
+ "hex",
+ "serde",
+ "serde_with",
+ "stellar-strkey 0.0.11",
 ]
 
 [[package]]
